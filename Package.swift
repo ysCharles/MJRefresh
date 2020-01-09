@@ -22,8 +22,9 @@ let package = Package(
             name: "MJRefresh",
             dependencies: [],
             path: ".",
+            exclude: [],
             sources: ["MJRefresh"],
-            publicHeadersPath : "MJRefresh"
+            publicHeadersPath : "include"
         )
     ]
 )
