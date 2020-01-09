@@ -24,7 +24,10 @@ let package = Package(
             path: ".",
             exclude: [],
             sources: ["MJRefresh"],
-            publicHeadersPath : "include"
+            publicHeadersPath : "include",
+            cSettings:[
+                .headerSearchPath("MJRefresh")
+            ]
         )
     ]
 )
