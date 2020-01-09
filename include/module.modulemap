@@ -1,5 +1,0 @@
-module MJRefresh {
-	umbrella header "MJRefresh.h"
-	export *
-    module * { export * }
-}
